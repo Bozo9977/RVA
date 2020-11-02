@@ -1,0 +1,105 @@
+2020-03-16 18:00:15,679-[1]-INFO -admin-[admin]-admin Add Gate -- initiated
+2020-03-16 18:00:15,702-[1]-INFO -admin-[admin]-admin Add gate -- CALLED
+2020-03-16 18:00:15,702-[1]-INFO -admin-[admin]-admin Add gate -- CALLED
+2020-03-16 18:00:20,401-[1]-INFO -admin-[admin]-admin Add gate -- SUCCESS!
+2020-03-16 18:00:20,401-[1]-INFO -admin-[admin]-admin Add gate -- SUCCESS!
+2020-03-16 18:00:20,401-[1]-INFO -admin-[admin]-admin Add gate -- SUCCESS!
+2020-03-16 18:00:20,467-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:20,467-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:20,467-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:20,467-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:21,824-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:21,824-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:21,824-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:21,824-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:21,824-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:23,887-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:23,887-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:23,887-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:23,887-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:23,887-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:23,887-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:24,190-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:24,190-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:24,190-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:24,190-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:24,190-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:24,190-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:24,190-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:24,599-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,599-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,599-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,599-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,599-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,599-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,599-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,599-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,773-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,773-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,773-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,773-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,773-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,773-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,773-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,773-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:24,773-[1]-INFO -admin-[admin]-admin Redo -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,152-[1]-INFO -admin-[admin]-admin Clone check -- CALLED
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:32,807-[1]-INFO -admin-[admin]-admin Clone check -- SUCCESS
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:33,053-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:34,821-[1]-INFO -admin-[admin]-admin Undo -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED
+2020-03-16 18:00:35,266-[1]-INFO -admin-[admin]-admin Refresh -- CALLED

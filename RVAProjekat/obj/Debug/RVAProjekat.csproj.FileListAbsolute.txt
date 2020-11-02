@@ -1,0 +1,15 @@
+C:\Users\Bozo\Desktop\RVAProjekat\bin\Debug\RVAProjekat.exe.config
+C:\Users\Bozo\Desktop\RVAProjekat\bin\Debug\RVAProjekat.exe
+C:\Users\Bozo\Desktop\RVAProjekat\bin\Debug\RVAProjekat.pdb
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\RVAProjekat.csprojAssemblyReference.cache
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\MainWindow.g.cs
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\App.g.cs
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\RVAProjekat_MarkupCompile.cache
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\RVAProjekat_MarkupCompile.lref
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\MainWindow.baml
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\RVAProjekat.g.resources
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\RVAProjekat.Properties.Resources.resources
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\RVAProjekat.csproj.GenerateResource.cache
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\RVAProjekat.csproj.CoreCompileInputs.cache
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\RVAProjekat.exe
+C:\Users\Bozo\Desktop\RVAProjekat\obj\Debug\RVAProjekat.pdb

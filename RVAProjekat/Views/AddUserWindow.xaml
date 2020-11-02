@@ -1,0 +1,55 @@
+﻿<Window x:Class="RVAProjekat.Views.AddUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RVAProjekat.Views"
+        mc:Ignorable="d"
+        Title="AddUserView" Height="717" Width="566" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ControlTemplate x:Key="TextBoxBaseControlTemplate" TargetType="{x:Type TextBoxBase}">
+            <Border Background="{TemplateBinding Background}" 
+                x:Name="Bd" BorderBrush="#FF252323"
+                BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5">
+                <ScrollViewer x:Name="PART_ContentHost"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TargetName="Bd"/>
+                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                </Trigger>
+                <Trigger Property="Width" Value="Auto">
+                    <Setter Property="MinWidth" Value="100"/>
+                </Trigger>
+                <Trigger Property="Height" Value="Auto">
+                    <Setter Property="MinHeight" Value="20"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+
+
+    <Grid Background="Black">
+        <Label Content="{Binding Title}" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="66" Margin="137,18,0,0" VerticalAlignment="Top" Width="299"  FontSize="28" FontFamily="Segoe UI" Foreground="#FFFBFB9F"/>
+
+        <TextBox Template="{StaticResource TextBoxBaseControlTemplate}" HorizontalAlignment="Left" Height="39" TextWrapping="Wrap" Text="{Binding NewUser.Name, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="227" Margin="170,163,0,0" Background="#FF2E2E2E" Foreground="#FFA7A9A8" FontSize="22"/>
+        <TextBox Template="{StaticResource TextBoxBaseControlTemplate}" HorizontalAlignment="Left" Height="39" Margin="170,259,0,0" TextWrapping="Wrap" Text="{Binding NewUser.LastName, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="227" Background="#FF2E2E2E" Foreground="#FFA7A9A8" FontSize="22"/>
+        <TextBox IsReadOnly="{Binding IsChange}" Template="{StaticResource TextBoxBaseControlTemplate}" HorizontalAlignment="Left" Height="39" Margin="170,351,0,0" TextWrapping="Wrap" Text="{Binding NewUser.Username, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="227" Background="#FF2E2E2E" Foreground="#FFA7A9A8" FontSize="22"/>
+        <TextBox Template="{StaticResource TextBoxBaseControlTemplate}" HorizontalAlignment="Left" Height="39" Margin="170,451,0,0" TextWrapping="Wrap" Text="{Binding NewUser.Password, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="227" RenderTransformOrigin="0.476,0.506" Background="#FF2E2E2E" Foreground="#FFA7A9A8" FontSize="22"/>
+        <Label  Content="Name:" HorizontalAlignment="Left" Height="40" Margin="170,123,0,0" VerticalAlignment="Top" Width="227" FontFamily="Segoe UI" Foreground="#FFFBFB9F" FontSize="22" HorizontalContentAlignment="Center"/>
+        <Label  Content="Lastname:" HorizontalAlignment="Left" Height="42" Margin="170,217,0,0" VerticalAlignment="Top" Width="227" FontFamily="Segoe UI" Foreground="#FFFBFB9F" FontSize="22" HorizontalContentAlignment="Center"/>
+        <Label  Content="Username:" HorizontalAlignment="Left" Height="36" Margin="170,315,0,0" VerticalAlignment="Top" Width="227" FontFamily="Segoe UI" Foreground="#FFFBFB9F" FontSize="22" HorizontalContentAlignment="Center"/>
+        <Label  Content="Password:" HorizontalAlignment="Left" Height="37" Margin="170,409,0,0" VerticalAlignment="Top" Width="227" FontFamily="Segoe UI" Foreground="#FFFBFB9F" FontSize="22" HorizontalContentAlignment="Center"/>
+        <Button Content="ADD" Visibility="{Binding Visible}" Command="{Binding AddUserCommand}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="221" Margin="176,582,0,0" Height="63" FontFamily="Segoe UI" Foreground="#FFFBFB9F" Background="Transparent" BorderBrush="White" FontSize="36" FontWeight="Bold"/>
+        <CheckBox Visibility="{Binding Visible}" FontFamily="Segoe UI" Foreground="#FFFBFB9F" Content="Admin" IsChecked="{Binding Admin, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="45" Margin="235,518,0,0" VerticalAlignment="Top" Width="95"  FontSize="24" Background="#FFFBFB9F" BorderBrush="#FF1F5076"/>
+
+
+        <Label  Content="{Binding ErrorName}" HorizontalAlignment="Left" Height="29" Margin="170,194,0,0" VerticalAlignment="Top" Width="227" FontFamily="Segoe UI" Foreground="red" FontSize="14"/>
+        <Label  Content="{Binding ErrorLastname}" HorizontalAlignment="Left" Height="29" Margin="170,286,0,0" VerticalAlignment="Top" Width="227" FontFamily="Segoe UI" Foreground="red" FontSize="14"/>
+        <Label  Content="{Binding ErrorUsername}" HorizontalAlignment="Left" Height="30" Margin="170,384,0,0" VerticalAlignment="Top" Width="227" FontFamily="Segoe UI" Foreground="red" FontSize="14"/>
+        <Label  Content="{Binding ErrorPassword}" HorizontalAlignment="Left" Height="30" Margin="170,483,0,0" VerticalAlignment="Top" Width="227" FontFamily="Segoe UI" Foreground="red" FontSize="14"/>
+        <!--<Label  Content="{Binding CheckUsername}" HorizontalAlignment="Left" Height="30" Margin="170,384,0,0" VerticalAlignment="Top" Width="227" FontFamily="Segoe UI" Foreground="red" FontSize="14"/>-->
+        <Button Content="CHANGE" Visibility="{Binding Visible2}" Command="{Binding ChangeInfoCommand}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="221" Margin="176,582,0,0" Height="63" FontFamily="Segoe UI" Foreground="#FFFBFB9F" Background="Transparent" BorderBrush="White" FontSize="36" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

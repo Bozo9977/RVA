@@ -1,0 +1,16 @@
+﻿<Window x:Class="RVAProjekat.Views.IssueTokenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RVAProjekat.Views"
+        mc:Ignorable="d"
+        Title="IssueTokenWindow" Height="450" Width="480.5" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black">
+        <Label x:Name="label" Content="Grant the level of access" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="gold" FontSize="22"  HorizontalAlignment="Center" Height="63" Margin="0,42,0,0" VerticalAlignment="Top" Width="472"/>
+        <TextBox x:Name="textBox" Background="Transparent" FontSize="22" VerticalContentAlignment="Center" Foreground="#FFFBFB9F" HorizontalAlignment="Left" Height="58" Margin="106,164,0,0" HorizontalContentAlignment="Center" TextWrapping="Wrap" Text="{Binding GrantedLevel}" VerticalAlignment="Top" Width="278"/>
+        <Button x:Name="button" Command="{Binding IssueTokenExecute}" IsDefault="True" Content="GrantLevel" FontSize="22" Foreground="#FFFBFB9F" Background="Transparent" BorderBrush="Gold" HorizontalAlignment="Left" Height="79" Margin="106,281,0,0" VerticalAlignment="Top" Width="278"/>
+        <Label x:Name="label1" Content="{Binding ErrorLabel, UpdateSourceTrigger=PropertyChanged}" Foreground="Red" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="59" Margin="10,222,0,0" VerticalAlignment="Top" Width="452"/>
+
+    </Grid>
+</Window>
